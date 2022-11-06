@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "njpwerner.autodocstring",
+        "kevinrose.vsc-python-indent",
+        "ms-python.vscode-pylance"
+    ]
+}
