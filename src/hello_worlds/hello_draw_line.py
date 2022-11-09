@@ -3,7 +3,7 @@ from panda3d.core import LineSegs
 from panda3d.core import NodePath
 
 
-class MyApp(ShowBase):
+class Learning(ShowBase):
 
     def __init__(self):
         ShowBase.__init__(self)
@@ -29,7 +29,7 @@ class MyApp(ShowBase):
 
         self.lines_z.setThickness(4)
         self.lines_z.setColor(200, 200, 200)
-
+        
         self.node_z = self.lines_z.create()
         self.np_z = NodePath(self.node_z)
 
@@ -37,5 +37,5 @@ class MyApp(ShowBase):
         self.np_z.reparentTo(self.render)
 
 
-app = MyApp()
-app.run()
+# app = MyApp()
+# app.run()
